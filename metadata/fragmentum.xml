@@ -23,12 +23,22 @@
     </Module>
     <!-- NeoForge Version -->
     <Module name="neoforge">
-        <Environment client="required" server="optional"/>
+        <Environment client="required" server="required"/>
         <CurseForge id="1123977" slug="fragmentum-neoforge">
             <Loader>NeoForge</Loader>
         </CurseForge>
         <Modrinth id="49C5QgTK" slug="fragmentum">
             <Loader>neoforge</Loader>
+        </Modrinth>
+    </Module>
+    <!-- NeoForge Version -->
+    <Module name="forge">
+        <Environment client="required" server="required"/>
+        <CurseForge id="1123970" slug="fragmentum">
+            <Loader>Forge</Loader>
+        </CurseForge>
+        <Modrinth id="49C5QgTK" slug="fragmentum">
+            <Loader>forge</Loader>
         </Modrinth>
     </Module>
 </ModMetadata>
