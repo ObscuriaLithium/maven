@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ModMetadata>
     <!-- General -->
-    <ModId>obscure_tooltips</ModId>
-    <ModName>Obscure Tooltips</ModName>
+    <ModId>fragmentum</ModId>
+    <ModName>Fragmentum</ModName>
     <!-- Fabric Version -->
     <Module name="fabric">
-        <Environment client="required" server="optional"/>
-        <CurseForge id="715660" slug="obscure-tooltips">
+        <Environment client="required" server="required"/>
+        <CurseForge id="1123974" slug="fragmentum-fabric">
             <Loader>Fabric</Loader>
             <Loader>Quilt</Loader>
             <Dependency type="required" slug="fabric-api"/>
-            <Dependency type="required" slug="fragmentum-fabric"/>
+            <Dependency type="required" slug="forge-config-api-port-fabric"/>
             <Dependency type="optional" slug="modmenu"/>
         </CurseForge>
-        <Modrinth id="5vetjDBY" slug="obscure-tooltips">
+        <Modrinth id="49C5QgTK" slug="fragmentum">
             <Loader>fabric</Loader>
             <Loader>quilt</Loader>
             <Dependency type="required" slug="fabric-api"/>
-            <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="forge-config-api-port"/>
             <Dependency type="optional" slug="modmenu"/>
         </Modrinth>
     </Module>
     <!-- NeoForge Version -->
     <Module name="neoforge">
         <Environment client="required" server="optional"/>
-        <CurseForge id="715660" slug="obscure-tooltips">
+        <CurseForge id="1123977" slug="fragmentum-neoforge">
             <Loader>NeoForge</Loader>
-            <Dependency type="required" slug="fragmentum-neoforge"/>
         </CurseForge>
-        <Modrinth id="5vetjDBY" slug="obscure-tooltips">
+        <Modrinth id="49C5QgTK" slug="fragmentum">
             <Loader>neoforge</Loader>
-            <Dependency type="required" slug="fragmentum"/>
         </Modrinth>
     </Module>
 </ModMetadata>
