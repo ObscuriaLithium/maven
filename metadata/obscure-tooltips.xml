@@ -33,4 +33,16 @@
             <Dependency type="required" slug="fragmentum"/>
         </Modrinth>
     </Module>
+    <!-- Forge Version -->
+    <Module name="forge">
+        <Environment client="required" server="optional"/>
+        <CurseForge id="715660" slug="obscure-tooltips">
+            <Loader>Forge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+        </CurseForge>
+        <Modrinth id="5vetjDBY" slug="obscure-tooltips">
+            <Loader>forge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+        </Modrinth>
+    </Module>
 </ModMetadata>
